@@ -1,36 +1,40 @@
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
-	color: #333;
+	background: #65A1E6 url('https://payload.cargocollective.com/1/4/136265/10379937/03-detail_1000.jpg');
+	color: #F5C027;
 }
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: #F5C027;
 }
 
-a:hover { color: Tomato; }
+a:hover { color: black; }
 
 header, nav, main, footer {
-	width: 80%;
+	width: 100%;
 	margin: auto;
+	font-family: 'Grenze', serif;
 }
 
 
 /* Header styles */
 header { 
-	background-color: #000;
+	background-color: black;
 	color: BlanchedAlmond;
 	min-height: 100px;
-	margin-top: 60px;
+	margin-top: 150px;
+	font-family: 'Grenze', serif;
 }
 
 header h1 {
-	padding: 40px 60px;
+	padding: 60px 40px;
+	font-family: 'Grenze', serif;
+	font-size: 30px;
 }
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color: #DBD3B8; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
@@ -52,9 +56,9 @@ section {
 }
 
 section ul, aside ul {
-	list-style-type: square;
+	list-style-type: none;
 	margin-top: 20px; 
-	margin-left: 30px;
+	margin-left: 60px;
 }
 
 aside {
@@ -65,7 +69,7 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
+	background-color: #A8A28D;
 	color: white;
 	text-align: center;
  }
