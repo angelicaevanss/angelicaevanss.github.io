@@ -23,6 +23,7 @@ header {
 	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 150px;
+	margin-bottom: 50px;
 	font-family: 'Grenze', serif;
 }
 
@@ -38,6 +39,7 @@ nav { background-color: #DBD3B8; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
+	list-style-type: none;
 }
 nav li { padding: 10px 10px; }
 nav a { color: BlanchedAlmond; }
@@ -56,7 +58,7 @@ section {
 }
 
 section ul, aside ul {
-	list-style-type: none;
+	list-style-type: circles;
 	margin-top: 20px; 
 	margin-left: 60px;
 }
